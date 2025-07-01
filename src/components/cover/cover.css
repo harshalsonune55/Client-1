@@ -1,0 +1,92 @@
+.cover-pot {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translateY(-50%);
+    z-index: 2;
+    color: #0d0d0d;
+    width: 40vw;
+    max-width: 527px;
+    padding: 3rem;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .cover-pot h1 {
+    font-size: 80px;
+    margin: 1rem 0;
+  }
+  
+  .butt-on {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #f1c152;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    margin-top: 1rem;
+  }
+  
+  .got {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .pot {
+    font-size: 1.6rem;
+    color: #f1c152;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .cover-pot {
+      width: 80%;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      padding: 2rem;
+      text-align: center;
+    }
+  
+    .cover-pot h1 {
+      font-size: 40px;
+    }
+  
+    .got {
+      font-size: 1rem;
+    }
+  
+    .pot {
+      font-size: 1.3rem;
+    }
+  
+    .butt-on {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cover-pot h1 {
+      font-size: 32px;
+    }
+  
+    .got {
+      font-size: 0.9rem;
+    }
+  
+    .pot {
+      font-size: 1.1rem;
+    }
+  
+    .cover-pot {
+      padding: 1.5rem;
+    }
+  }
+  

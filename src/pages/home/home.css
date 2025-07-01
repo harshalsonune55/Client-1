@@ -1,0 +1,22 @@
+.home-container {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    /* overflow: hidden; */
+  }
+
+  .half-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://ganpateshwarbaba.netlify.app/img/BabaIMG1.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    z-index: -100;
+  }
+  
+  
+
+  

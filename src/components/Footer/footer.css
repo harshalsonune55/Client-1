@@ -1,0 +1,159 @@
+.footer {
+    background: #111;
+    color: white;
+    padding: 3rem 2rem;
+    font-family: sans-serif;
+  }
+  
+  .newsletter-section {
+    border-bottom: 1px solid #333;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .newsletter-section h2 {
+    font-size: 32px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .newsletter-section p {
+    color: #aaa;
+    margin-bottom: 1rem;
+  }
+  
+  .newsletter-input {
+    display: flex;
+    max-width: 500px;
+  }
+  
+  .newsletter-input input {
+    flex: 1;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+  }
+  
+  .newsletter-input button {
+    background: #f4c542;
+    border: none;
+    padding: 0 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  
+  .footer-col {
+    flex: 1 1 220px;
+  }
+  
+  .footer-col h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-col h3 span {
+    color: #f4c542;
+  }
+  
+  .footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-col p {
+    color: #ccc;
+    font-size: 14px;
+  }
+  
+  .donate-btn {
+    margin-top: 1rem;
+    background: #f4c542;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .icon-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .icon-box {
+    background: #f4c542;
+    color: black;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 0.5rem 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .latest-news .news-item {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .news-item img {
+    width: 50px;
+    height: 60px;
+    object-fit: cover;
+  }
+  
+  .date {
+    color: #aaa;
+    font-size: 12px;
+  }
+  
+  .desc {
+    font-size: 13px;
+    color: #ccc;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #333;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-bottom a {
+    color: #f4c542;
+    text-decoration: none;
+  }
+  
+  .footer-bottom span {
+    color: #f4c542;
+  }
+  
+  .scroll-top {
+    background: #f4c542;
+    padding: 0.5rem;
+    color: black;
+    cursor: pointer;
+  }
+  

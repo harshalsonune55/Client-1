@@ -1,0 +1,124 @@
+.info-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 400px;
+    gap: 1.2rem;
+
+  }
+  
+  .info-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .info-card:hover {
+    background-color: #f1c152;
+  }
+  
+  .info-card .icon {
+    font-size: 3rem;
+    color: black;
+  }
+  
+  .info-card h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #111;
+  }
+  
+  .info-card p {
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .read-more-btn {
+    margin-top: auto;
+    align-self: flex-start;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .info-card.highlighted .read-more-btn {
+    background-color: #000;
+    color: white;
+  }
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    padding: 2rem 4rem;
+  }
+  @media (max-width: 1024px) {
+    .card-grid {
+      padding: 2rem;
+      gap: 1.5rem;
+    }
+  
+    .info-card {
+      padding: 1.5rem;
+      max-width: 100%;
+    }
+  
+    .info-card h3 {
+      font-size: 1.2rem;
+    }
+  
+    .info-card p {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .card-grid {
+      grid-template-columns: 1fr;
+      padding: 1rem;
+      gap: 1rem;
+    }
+  
+    .info-card {
+      padding: 1.2rem;
+    }
+  
+    .info-card .icon {
+      font-size: 2.4rem;
+    }
+  
+    .read-more-btn {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  .info-card-section {
+    text-align: center;
+    margin: 3rem 2rem;
+  }
+  
+  .card-subheading {
+    color: #f4c542;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .card-heading {
+    font-size: 59.57px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 3rem;
+  }
+  
+  

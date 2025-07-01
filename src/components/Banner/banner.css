@@ -1,0 +1,95 @@
+.ban-main {
+    background-color: #f1c152;
+    visibility: visible;
+    animation-delay: 0.1s;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    border-radius: 8px;
+  
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 2rem 4rem; 
+    margin: 2rem 6rem;
+    gap: 2rem;
+    flex-wrap: wrap; 
+  }
+  
+  .ban-main span {
+    margin: 0 1rem;
+  }
+  
+  .ban-logo {
+    color: white;
+    font-size: 5rem;
+  }
+  
+  .ban-content {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .ban-btn button {
+    background-color: white;
+    color: #f1c152;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .ban-btn button:hover {
+    background-color: #fff3d6;
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .ban-main {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      margin: 1rem;
+      gap: 1.5rem;
+    }
+  
+    .ban-logo {
+      font-size: 4rem;
+    }
+  
+    .ban-content {
+      font-size: 1.5rem;
+    }
+  
+    .ban-btn button {
+      font-size: 1rem;
+      padding: 0.7rem 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .ban-main {
+      padding: 1.5rem 1rem;
+      gap: 1rem;
+    }
+  
+    .ban-logo {
+      font-size: 3rem;
+    }
+  
+    .ban-content {
+      font-size: 1.2rem;
+    }
+  
+    .ban-btn button {
+      font-size: 0.9rem;
+      padding: 0.6rem 1rem;
+    }
+  }
+  
